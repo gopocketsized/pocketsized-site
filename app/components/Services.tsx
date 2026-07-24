@@ -1,41 +1,41 @@
-import { Users, Code2, Terminal, Layers, ShieldCheck, MessageSquareHeart } from 'lucide-react';
+import { Users, Code2, Handshake, Layers, ShieldCheck, MessageCircleHeart } from 'lucide-react';
 
 const services = [
   {
     icon: <Users className="w-5 h-5" />,
-    title: "Customer Success",
+    title: "Customer Success Strategy",
     category: "CX",
-    desc: "Designing comprehensive post-sale customer lifecycles, high-touch onboarding decks, and quarterly business review (QBR) frameworks that defend and expand revenue."
+    desc: "Build a scalable customer success foundation through lifecycle planning, onboarding strategies, customer journey mapping, health scoring, and long-term retention planning."
   },
   {
-    icon: <MessageSquareHeart className="w-5 h-5" />,
-    title: "Touchpoint Optimization",
+    icon: <MessageCircleHeart className="w-5 h-5" />,
+    title: "Customer Experience & Growth",
     category: "CX",
-    desc: "Mapping targeted client engagement strategies including structured product walkthroughs, check-in intervals, and intentional product launch or closing workflows."
+    desc: "Strengthen customer relationships with product adoption strategies, launch planning, engagement initiatives and expansion opportunities that increase retention and growth."
   },
   {
     icon: <Layers className="w-5 h-5" />,
-    title: "CRM Management",
+    title: "Operations & Enablement",
     category: "CX",
-    desc: "Structuring clean customer relationship management workspaces, establishing strict data input models, and ensuring predictable account communication channels."
+    desc: "Create repeatable systems with CRM implementation support, playbooks, meeting frameworks, onboarding materials, QBR decks, and standardized documentation that empowers your team."
+  },
+  {
+    icon: <Handshake className="w-5 h-5" />,
+    title: "Strategic Partnership",
+    category: "BIZ",
+    desc: "Collaborate through brainstorming sessions, cross-functional planning, alignment workshops, and customer-focused strategy to turn ideas into actionable, sustainable solutions."
   },
   {
     icon: <Code2 className="w-5 h-5" />,
     title: "Frontend Development",
     category: "DEV",
-    desc: "Building highly modular, accessible, and reactive user interfaces using React, Next.js, and Vite, tightly styled via Tailwind CSS or Material-UI design systems."
+    desc: "Build modular, accessible, and high-performance user interfaces using modern JavaScript frameworks, responsive styling systems, and scalable component architectures."
   },
   {
     icon: <ShieldCheck className="w-5 h-5" />,
     title: "QA Engineering",
     category: "DEV",
-    desc: "Implementing clean software testing protocols, structured bug tracking, and automated CI/CD pipeline runs using GitHub Actions, Jira, ClickUp, and Zendesk."
-  },
-  {
-    icon: <Terminal className="w-5 h-5" />,
-    title: "Browser Automation",
-    category: "DEV",
-    desc: "Engineering highly stable end-to-end (E2E) UI and feature workflows using TypeScript, state management systems (Redux), and robust automated test code scripts."
+    desc: "Execute end-to-end browser automation, structured bug tracking, and automated CI/CD pipeline tests across your existing testing stack and support tools."
   }
 ];
 
