@@ -1,6 +1,7 @@
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import { Users, ShieldCheck, Terminal, Target } from 'lucide-react';
+import { Users, Terminal, Target } from 'lucide-react';
+import Image from 'next/image';
 
 export default function AboutPage() {
   return (
@@ -77,9 +78,9 @@ export default function AboutPage() {
                 Specializing in building high-impact client success architectures, designing custom lifecycle resources, and optimizing core account touchpoints. I map and implement proactive engagement workflows—from onboarding to business reviews—while structuring CRM platforms to maximize retention.
               </p>
               <ul className="text-xs text-[#455157] space-y-2 pt-4 font-medium mt-auto">
-                <li className="flex items-center gap-2"><span className="text-[#267EC5]">✔</span> Onboarding, QBR, & Product Launch Frameworks</li>
-                <li className="flex items-center gap-2"><span className="text-[#267EC5]">✔</span> High-Touch Strategic Playbooks & Client Decks</li>
-                <li className="flex items-center gap-2"><span className="text-[#267EC5]">✔</span> CRM Workspace Architecture & Pipeline Tracking</li>
+                <li className="flex items-center gap-2"><span className="text-green-500">✔</span> Onboarding, QBR, & Product Launch Frameworks</li>
+                <li className="flex items-center gap-2"><span className="text-green-500">✔</span> High-Touch Strategic Playbooks & Client Decks</li>
+                <li className="flex items-center gap-2"><span className="text-green-500">✔</span> CRM Workspace Architecture & Pipeline Tracking</li>
               </ul>
             </div>
 
@@ -97,17 +98,23 @@ export default function AboutPage() {
                 Blending modular frontend development with comprehensive technical quality operations. I engineer fast, interactive user interfaces using React and Next.js, backed by stable browser automation frameworks, integrated CI/CD staging pipelines, and structured tracking workflows.
               </p>
               <ul className="text-xs text-[#455157] space-y-2 pt-4 font-medium mt-auto">
-                <li className="flex items-center gap-2"><span className="text-[#267EC5]">✔</span> React, Next.js, Vite & Design Systems (Tailwind)</li>
-                <li className="flex items-center gap-2"><span className="text-[#267EC5]">✔</span> Playwright Browser Automation & E2E Testing</li>
-                <li className="flex items-center gap-2"><span className="text-[#267EC5]">✔</span> Technical Operations (Git, CI/CD, Jira, Zendesk)</li>
+                <li className="flex items-center gap-2"><span className="text-green-500">✔</span> React, Next.js, Vite & Design Systems (Tailwind)</li>
+                <li className="flex items-center gap-2"><span className="text-green-500">✔</span> Playwright Browser Automation & E2E Testing</li>
+                <li className="flex items-center gap-2"><span className="text-green-500">✔</span> Technical Operations (Git, CI/CD, Jira, Zendesk)</li>
               </ul>
             </div>
 
           </div>
         </section>
 
-        <section className="mt-24 p-8 rounded-2xl bg-[#0F172A] border border-[#74838b]/30 text-center shadow-sm">
-          <ShieldCheck className="w-10 h-10 text-[#267EC5] mx-auto mb-4" />
+        <section className="mt-24 p-8 rounded-2xl bg-[#0F172A] border border-[#74838b]/30 text-center shadow-sm flex flex-col items-center">
+          <Image
+            src="/icon.svg"
+            alt="PocketSized icon"
+            width={48}
+            height={48}
+            className="mb-3 [filter:drop-shadow(1px_0_0_#fff)_drop-shadow(-1px_0_0_#fff)_drop-shadow(0_1px_0_#fff)_drop-shadow(0_-1px_0_#fff)]"
+          />
           <h3 className="text-lg font-bold text-white mb-2">Why PocketSized?</h3>
           <p className="text-sm text-[#d6dfe1] max-w-xl mx-auto leading-relaxed">
             Most agencies only focus on one side of the coin: either fixing bugs or managing user complaints. We combine technical QA engineering directly with strategic client experience, resolving product issues completely before your clients ever run into them.
