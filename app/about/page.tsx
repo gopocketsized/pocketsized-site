@@ -75,7 +75,7 @@ export default function AboutPage() {
                 </div>
               </div>
               <p className="text-sm text-[#455157] leading-relaxed">
-                Specializing in building high-impact client success architectures, designing custom lifecycle resources, and optimizing core account touchpoints. I map and implement proactive engagement workflows—from onboarding to business reviews—while structuring CRM platforms to maximize retention.
+                Specializes in designing and optimizing the full customer lifecycle through high-touch, white-glove Customer Success strategies.
               </p>
               <ul className="text-xs text-[#455157] space-y-2 pt-4 font-medium mt-auto">
                 <li className="flex items-center gap-2"><span className="text-green-500">✔</span> Onboarding, QBR, & Product Launch Frameworks</li>
@@ -95,7 +95,7 @@ export default function AboutPage() {
                 </div>
               </div>
               <p className="text-sm text-[#455157] leading-relaxed">
-                Blending modular frontend development with comprehensive technical quality operations. I engineer fast, interactive user interfaces using React and Next.js, backed by stable browser automation frameworks, integrated CI/CD staging pipelines, and structured tracking workflows.
+                Engineers fast, interactive UI using modern frameworks, backed by stable browser automation frameworks, integrated CI/CD staging pipelines, and structured tracking workflows.
               </p>
               <ul className="text-xs text-[#455157] space-y-2 pt-4 font-medium mt-auto">
                 <li className="flex items-center gap-2"><span className="text-green-500">✔</span> React, Next.js, Vite & Design Systems (Tailwind)</li>
@@ -117,7 +117,7 @@ export default function AboutPage() {
           />
           <h3 className="text-lg font-bold text-white mb-2">Why PocketSized?</h3>
           <p className="text-sm text-[#d6dfe1] max-w-xl mx-auto leading-relaxed">
-            Most agencies only focus on one side of the coin: either fixing bugs or managing user complaints. We combine technical QA engineering directly with strategic client experience, resolving product issues completely before your clients ever run into them.
+            We combine strategic client experience with technical QA engineering, resolving product issues completely before your clients ever run into them.
           </p>
         </section>
       </main>
